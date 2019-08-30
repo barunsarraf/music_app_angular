@@ -1,0 +1,22 @@
+
+.change{
+    background: #F5F5F5;
+}
+.change:hover{
+    background: #263238;
+    color: aliceblue;
+
+}
+.pp{
+    margin:auto;
+    width: 500px;
+}
+.search_results
+{
+    background: #263238;
+    color: wheat;
+}
+.search_results:hover
+{
+    background: #263238;
+}

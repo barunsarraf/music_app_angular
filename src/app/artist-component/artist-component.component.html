@@ -1,0 +1,45 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-dark" style="width:100%;position:fixed;z-index: 9999;">
+                <a class="navbar-brand" style="color: wheat">Music</a>
+                             <input #input [(ngModel)]="searchinput" class="form-control mr-sm-2" (keyup)="searchtrack(input.value)" type="search" placeholder="Search your music here..." aria-label="Search">
+                                <button (click)="searchtrack(input.value)" style="background: wheat;margin-right: 5px;" class="btn my-2 my-sm-0" type="submit">Search</button>
+                                <button  (click)="favourite()" style="background: wheat" class="btn my-2 my-sm-0" type="submit">Favourites</button>
+              </nav>
+
+
+
+
+<div style="padding-top:60px;padding-left: 15px;padding-right: 15px;">
+        Top Rated Tracks:
+       
+        <div class="d-flex flex-row bd-highlight mb-3" style="overflow: auto;">
+
+                <div (click)="onselect(x.artist,x.name)" class="card change" style="margin-right: 5px;width: 500px;" *ngFor="let x of top_tracks">
+                        <img class="card-img-top" src='{{x.image[3]["#text"]}}' alt="Card image cap">
+                        <div class="card-body">
+                        <p class="card-text">{{x.name}}</p>
+                        </div>
+                </div>
+        </div>
+    
+
+
+
+
+
+                <div class="list-group">
+                                <p style="background: wheat" class="btn my-2 my-sm-0">Your Search Results {{searchinput}} </p>
+                                <a (click)="onselectsearch(x,x.name)" class="list-group-item list-group-item-action search_results" *ngFor="let x of searched_track" >
+                                  <div class="d-flex w-100 justify-content-between" style="color: wheat;">
+                                    <h5 class="mb-1">{{x.name}}</h5>
+                                    <small>{{x.artist}} </small>
+                                  </div>
+                                  <p class="mb-1"  style="color: wheat">{{x.url}}</p>
+                                  <small style="color: wheat">Listeners: {{x.listeners}}.</small>
+                                </a>
+                </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

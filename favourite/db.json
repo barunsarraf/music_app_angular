@@ -1,0 +1,290 @@
+{
+  "fav": [
+    {
+      "name": "Earfquake",
+      "url": "https://www.last.fm/music/Tyler,+the+Creator/_/Earfquake",
+      "duration": "190000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "164577",
+      "playcount": "1462168",
+      "artist": {
+        "name": "Tyler, the Creator",
+        "mbid": "f6beac20-5dfe-4d1f-ae02-0b0a740aafd6",
+        "url": "https://www.last.fm/music/Tyler,+the+Creator"
+      },
+      "album": {
+        "artist": "Tyler, the Creator",
+        "title": "Igor",
+        "url": "https://www.last.fm/music/Tyler,+the+Creator/Igor",
+        "image": [
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/34s/7019a1ce194702b35dfbe2b706c39393.png",
+            "size": "small"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/64s/7019a1ce194702b35dfbe2b706c39393.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/174s/7019a1ce194702b35dfbe2b706c39393.png",
+            "size": "large"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/7019a1ce194702b35dfbe2b706c39393.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "alternative",
+            "url": "https://www.last.fm/tag/alternative"
+          },
+          {
+            "name": "rap",
+            "url": "https://www.last.fm/tag/rap"
+          },
+          {
+            "name": "tyler the creator",
+            "url": "https://www.last.fm/tag/tyler+the+creator"
+          },
+          {
+            "name": "jazz",
+            "url": "https://www.last.fm/tag/jazz"
+          },
+          {
+            "name": "hip hop",
+            "url": "https://www.last.fm/tag/hip+hop"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "18 May 2019, 16:18",
+        "summary": "“EARFQUAKE” is a collaboration between Tyler, The Creator and Playboi Carti. In the song, Tyler sings about a lover he depends on, who he knows he hasn’t treated the best, but needs. This is done over beautiful, cheery piano chords and heavy, distorted drums, mixing styles from his last two albums, Cherry Bomb and Flower Boy.\n\nThe track’s title references a popular line from Carti’s 2015 hit single “Fetti”:\n\"I just left Houston, I just left earf\" <a href=\"http://www.last.fm/music/Tyler,+the+Creator/_/Earfquake\">Read more on Last.fm</a>.",
+        "content": "“EARFQUAKE” is a collaboration between Tyler, The Creator and Playboi Carti. In the song, Tyler sings about a lover he depends on, who he knows he hasn’t treated the best, but needs. This is done over beautiful, cheery piano chords and heavy, distorted drums, mixing styles from his last two albums, Cherry Bomb and Flower Boy.\n\nThe track’s title references a popular line from Carti’s 2015 hit single “Fetti”:\n\"I just left Houston, I just left earf\"\n\nTyler dropped a music video for \"EARFQUAKE\" on his Youtube channel the following day after the album’s release. The video’s set is an identical set to the teaser for “WHAT’S GOOD”. It plays out as a musical audition on a daytime TV show gone wrong. Actress Tracee Ellis Ross stars in the video.\n\n\"EARFQUAKE\" was a moderate success around the world, reaching the top 10 in some countries, including a #8 in New Zealand and a #13 in the USA. <a href=\"http://www.last.fm/music/Tyler,+the+Creator/_/Earfquake\">Read more on Last.fm</a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      },
+      "id": 1
+    },
+    {
+      "name": "Hot n Cold",
+      "mbid": "5fde9805-f736-42d3-bd6b-dca8d9327148",
+      "url": "https://www.last.fm/music/Katy+Perry/_/Hot+n+Cold",
+      "duration": "220000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "997099",
+      "playcount": "6414950",
+      "artist": {
+        "name": "Katy Perry",
+        "mbid": "122d63fc-8671-43e4-9752-34e846d62a9c",
+        "url": "https://www.last.fm/music/Katy+Perry"
+      },
+      "album": {
+        "artist": "Katy Perry",
+        "title": "One of the Boys",
+        "mbid": "30625a5d-5ceb-4fb6-bb8c-ba82e279acdd",
+        "url": "https://www.last.fm/music/Katy+Perry/One+of+the+Boys",
+        "image": [
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/34s/317a50a1835182082e8df461a9cfd78f.png",
+            "size": "small"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/64s/317a50a1835182082e8df461a9cfd78f.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/174s/317a50a1835182082e8df461a9cfd78f.png",
+            "size": "large"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/317a50a1835182082e8df461a9cfd78f.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "7"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https://www.last.fm/tag/pop"
+          },
+          {
+            "name": "katy perry",
+            "url": "https://www.last.fm/tag/katy+perry"
+          },
+          {
+            "name": "dance",
+            "url": "https://www.last.fm/tag/dance"
+          },
+          {
+            "name": "female vocalists",
+            "url": "https://www.last.fm/tag/female+vocalists"
+          },
+          {
+            "name": "catchy",
+            "url": "https://www.last.fm/tag/catchy"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "12 Aug 2008, 20:44",
+        "summary": "\"Hot n Cold\" is a song by American singer Katy Perry. The song was written and composed by Dr. Luke, Max Martin, and Perry for her major mainstream debut album, One of the Boys. The track was released as the album's second single. It is about an unstable heterosexual romantic relationship, told from her point of view. The chorus uses several antonyms to describe her partner's bipolar mood swings, with the verses describing how they affect the couple's life together. <a href=\"http://www.last.fm/music/Katy+Perry/_/Hot+n+Cold\">Read more on Last.fm</a>.",
+        "content": "\"Hot n Cold\" is a song by American singer Katy Perry. The song was written and composed by Dr. Luke, Max Martin, and Perry for her major mainstream debut album, One of the Boys. The track was released as the album's second single. It is about an unstable heterosexual romantic relationship, told from her point of view. The chorus uses several antonyms to describe her partner's bipolar mood swings, with the verses describing how they affect the couple's life together.\n\nThe single reached number three on the Billboard Hot 100, making it Perry's second consecutive top three single, after her previous worldwide hit \"I Kissed a Girl\". The single has also become Perry's second top five single in the United Kingdom, Australia, Ireland and New Zealand, and topped the charts in Finland, Germany, Canada, Norway, Spain and Denmark, and has topped the charts in 15 countries. \"Hot n Cold\" was nominated for the Grammy Award fo Best Female Pop Vocal Performance at the 52nd Grammy Awards but lost to Beyoncé's Halo.\n\nAs of September 2011, \"Hot n Cold\" has sold over five million digital downloads. Perry sang the song in Simlish for the soundtrack of Sims 2: Apartment Life. In 2010, Perry performed a version of the song with Elmo intended for the children's television show Sesame Street (to teach children about opposites) which was released on websites such as YouTube. However, the producers of Sesame Street decided not to air the segment on the show after receiving complaints that Perry's revealing wardrobe was not appropriate for children. Perry alluded to the controversy later that week on Saturday Night Live by wearing a low cut Elmo t-shirt with a short skirt.\n\nBackground\n\n\"Hot n Cold\" was confirmed as the second single from One of the Boys by Perry in an interview with Radio 1 saying that the song would in fact be the follow-up single to her number one hit \"I Kissed a Girl\" in the United Kingdom and Australia. The song went for ads on the North American radios on September 9 and remained the song with one of the biggest bullets of the entire mediabase for weeks. There are currently four radio edits: in one, \"bitch\" is replaced with the word \"chick\", (\"You PMS (pronounced like 'be a mess'), like a girl, I would know\"); in the second, mostly used on radio program Open House Party, this version uses \"girl\" instead of \"bitch\" or \"chick\" (in a version once played on Ryan Seacrest's American Top 40 radio show, the lyrics are \"You PMS, I would know\"); in another edit, the lyrics first line of the song was repeated after the line was sung in full (\"You change your mind, like a girl, I would know\"), this edit can be heard in theme parks; finally, the radio edit that is used on UK music channels cuts out the word altogether. A remixed version of the track has also been released for play in the iPhone OS game Tap Tap Revenge. The song was nominated for the 52nd Grammy Awards in the category of Best Female Pop Vocal Performance, but lost for Beyoncé's \"Halo\" and was chosen as the theme song for Channel Ten's new show MasterChef Australia in 2009. Perry said in an interview with Open House Party that the song was about ex-boyfriend Travie McCoy in the early stages of their relationship.\n\n\n\nCovers\n\nWoe, Is Me version\n\nAtlanta-based rock band, Woe, Is Me covered the track for the compilation album Punk Goes Pop 3, which was released on November 2, 2010. The song was leaked on October 6, 2010, and was officially released for digital download on October 21, 2010.\n\nOther cover versions\n\n-\"Hot n Cold\" was covered by the rockabilly coverband The Baseballs in 2009 from their debut album Strike!.\n- The song was covered by British ska and indie band Kid British on their 2009 EP iTunes Live: London Festival '09.\n-The Chipettes covered the song for the movie Alvin and the Chipmunks: The Squeakquel and the movie's soundtrack. In this version the line \"You PMS, like a bitch, I would know\" is changed to \"You always stress like a chick, I would know\".\n-Brazilian girlband Valkyrias covered the song on their Rádio VKS Tour.\n-Selena Gomez & the Scene performed the song during her 2009 Selena Gomez & the Scene: Live in Concert tour.\n-Taylor Swift with Katy Perry performed the song during at the Fearless Tour on April 15, 2010 (Staples Center).\n- Aaron Lewis covers a stripped down acoustic version to tease the audience. <a href=\"http://www.last.fm/music/Katy+Perry/_/Hot+n+Cold\">Read more on Last.fm</a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      },
+      "id": 2
+    },
+    {
+      "name": "Señorita",
+      "url": "https://www.last.fm/music/Shawn+Mendes/_/Se%C3%B1orita",
+      "duration": "190000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "143659",
+      "playcount": "2165541",
+      "artist": {
+        "name": "Shawn Mendes",
+        "mbid": "b7d92248-97e3-4450-8057-6fe06738f735",
+        "url": "https://www.last.fm/music/Shawn+Mendes"
+      },
+      "album": {
+        "artist": "Shawn Mendes",
+        "title": "Shawn Mendes (Deluxe)",
+        "url": "https://www.last.fm/music/Shawn+Mendes/Shawn+Mendes+(Deluxe)",
+        "image": [
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/34s/0e1ae8730eab305c98c6accc5f7bd60d.png",
+            "size": "small"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/64s/0e1ae8730eab305c98c6accc5f7bd60d.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/174s/0e1ae8730eab305c98c6accc5f7bd60d.png",
+            "size": "large"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/0e1ae8730eab305c98c6accc5f7bd60d.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https://www.last.fm/tag/pop"
+          },
+          {
+            "name": "latin",
+            "url": "https://www.last.fm/tag/latin"
+          },
+          {
+            "name": "Camila Cabello",
+            "url": "https://www.last.fm/tag/Camila+Cabello"
+          },
+          {
+            "name": "latin pop",
+            "url": "https://www.last.fm/tag/latin+pop"
+          },
+          {
+            "name": "love at first listen",
+            "url": "https://www.last.fm/tag/love+at+first+listen"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "22 Jul 2019, 22:06",
+        "summary": "\"Señorita\" (English: \"Young Lady\") is a song by Canadian singer Shawn Mendes and Cuban-American singer Camila Cabello. It was released as a single through Island Records on June 21, 2019. The song was written by Mendes, Cabello, Charli XCX, Ali Tamposi, Jack Patterson of Clean Bandit, and its producers Andrew Watt, Benny Blanco, and Cashmere Cat. The song marks Mendes' and Cabello's second collaboration, following \"I Know What You Did Last Summer\", a song from Mendes' debut album, Handwritten (2015). <a href=\"http://www.last.fm/music/Shawn+Mendes/_/Se%C3%B1orita\">Read more on Last.fm</a>.",
+        "content": "\"Señorita\" (English: \"Young Lady\") is a song by Canadian singer Shawn Mendes and Cuban-American singer Camila Cabello. It was released as a single through Island Records on June 21, 2019. The song was written by Mendes, Cabello, Charli XCX, Ali Tamposi, Jack Patterson of Clean Bandit, and its producers Andrew Watt, Benny Blanco, and Cashmere Cat. The song marks Mendes' and Cabello's second collaboration, following \"I Know What You Did Last Summer\", a song from Mendes' debut album, Handwritten (2015). \"Señorita\" topped the charts in Austria, Bulgaria, the Czech Republic, Denmark, Finland, Germany, Greece, Hungary, Ireland, Malaysia, the Netherlands, New Zealand, Norway, Portugal, Singapore, Slovakia, Sweden, Switzerland and the United Kingdom, and reached number two in Australia, Canada, Estonia and the United States. It also went on to record the biggest single-day debut of a male/female duet ever. <a href=\"http://www.last.fm/music/Shawn+Mendes/_/Se%C3%B1orita\">Read more on Last.fm</a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      },
+      "id": 3
+    },
+    {
+      "name": "In the End",
+      "mbid": "9d70086c-5d7a-4e7f-b1ed-c53c4b11310f",
+      "url": "https://www.last.fm/music/Linkin+Park/_/In+the+End",
+      "duration": "216000",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "listeners": "1432992",
+      "playcount": "12668207",
+      "artist": {
+        "name": "Linkin Park",
+        "mbid": "f59c5520-5f46-4d2c-b2c4-822eabf53419",
+        "url": "https://www.last.fm/music/Linkin+Park"
+      },
+      "album": {
+        "artist": "Linkin Park",
+        "title": "Greatest Hits",
+        "mbid": "e5c6b50b-2fd7-4cb1-8440-e92c40f81bbb",
+        "url": "https://www.last.fm/music/Linkin+Park/Greatest+Hits",
+        "image": [
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/34s/1f922f8eb093037a30faa1c666a84c78.png",
+            "size": "small"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/64s/1f922f8eb093037a30faa1c666a84c78.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/174s/1f922f8eb093037a30faa1c666a84c78.png",
+            "size": "large"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/1f922f8eb093037a30faa1c666a84c78.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "position": "10"
+        }
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rock",
+            "url": "https://www.last.fm/tag/rock"
+          },
+          {
+            "name": "Nu Metal",
+            "url": "https://www.last.fm/tag/Nu+Metal"
+          },
+          {
+            "name": "Linkin Park",
+            "url": "https://www.last.fm/tag/Linkin+Park"
+          },
+          {
+            "name": "alternative rock",
+            "url": "https://www.last.fm/tag/alternative+rock"
+          },
+          {
+            "name": "alternative",
+            "url": "https://www.last.fm/tag/alternative"
+          }
+        ]
+      },
+      "wiki": {
+        "published": "03 Sep 2008, 16:05",
+        "summary": "\"In the End\" is song written by Linkin Park from their debut album Hybrid Theory (2000). Its lyrics to the song is mainly based on one person's failure. It is considered symbolic of an ending relationship. However it can also be symbolic of a long-lasting friendship's trust between one another that has gone away. It was originally a poem but was deemed good enough to be a song, it is also considered Linkin Park's signature song. \"In The End\" is also one of Linkin Park's most popular song which it is always performed in every of their concerts. <a href=\"http://www.last.fm/music/Linkin+Park/_/In+the+End\">Read more on Last.fm</a>.",
+        "content": "\"In the End\" is song written by Linkin Park from their debut album Hybrid Theory (2000). Its lyrics to the song is mainly based on one person's failure. It is considered symbolic of an ending relationship. However it can also be symbolic of a long-lasting friendship's trust between one another that has gone away. It was originally a poem but was deemed good enough to be a song, it is also considered Linkin Park's signature song. \"In The End\" is also one of Linkin Park's most popular song which it is always performed in every of their concerts.\n\nThe song was released as the album's fourth and last single in late 2001 and entered the top ten on the majority of the charts it appeared on. <a href=\"http://www.last.fm/music/Linkin+Park/_/In+the+End\">Read more on Last.fm</a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+      },
+      "id": 4
+    }
+  ]
+}

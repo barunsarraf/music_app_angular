@@ -1,0 +1,28 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-dark" >
+        <a class="navbar-brand" href="#" style="color: wheat">Music</a>
+      </nav>
+      
+      <p style="background: wheat;width:100%;" class="btn my-2 my-sm-0">Your Favourites</p>
+      <!-- <p *ngFor="let favs of favlist">Track Name:{{favs.name}} - Duration:{{favs.duration}} Url: {{favs.url}}</p> -->
+
+     
+
+      <div>
+        <div class="card-group" style="display: inline;padding: 100px;">
+          <div class="card search_results" *ngFor="let favs of favlist" style="margin-bottom: 50px;text-align: center" >
+            <!-- <img class="card-img-top" src='{{fav.album.image[3]["#text"]}}' alt="Card image cap"> -->
+            <div class="card-body">
+              <h5 class="card-title">Track Name: {{favs.name}}</h5>
+              <p class="card-text">Listeners: {{favs.listeners}}</p>
+            </div>
+            
+            <div class="card-footer">
+              <small class="text-muted">Published On: {{favs.wiki.published}}</small><br>
+              <small class="text-muted"><a href="{{favs.url}}">Visit Link</a></small>
+              
+            </div>
+          </div>
+          
+      </div>
+
+   

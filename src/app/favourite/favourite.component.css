@@ -1,0 +1,15 @@
+.search_results
+{
+    background: #263238;
+    color: wheat;
+}
+.search_results:hover
+{
+    background: #263238;
+}
+a{
+    color: grey;
+}
+a:hover{
+    color: wheat;
+}
