@@ -53,8 +53,17 @@ import {HttpClient} from '@angular/common/http';
     <strong>Summary of Artist: On: </strong> {{trackinfo.wiki.summary}}.
     </div>
    
-    <button (click)="addtofav(trackinfo)" style="background: #263238;color:wheat" class="btn my-2 my-sm-0" type="submit">Add to Favourite</button>
+    <button (click)="addtofav(trackinfo,commentvalue.value)" style="background: #263238;color:wheat" class="btn my-2 my-sm-0" type="submit">Add to Favourite</button>
+    <div class="row">
+    <div class="col-sm-4">
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Add Comment Here</label>
+            <textarea #commentvalue class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
     </div>
+  </div>
+    </div>
+    
     </div>
   `,
   styles: []
@@ -79,16 +88,18 @@ export class ArtistDetailsComponent implements OnInit {
     
   }
 
-  addtofav(trackinfo)
+  addtofav(trackinfo,comments)
   {
     console.log("In add method");
-    var a=this.artistname;
-    var b=this.trackname;
-    var c=this.trackinfo.track; //its taking object value which is not a number so this is increasing the last id value
-   console.log('artist'+a);
-   console.log('track'+b);
+    // var a=this.artistname;
+    // var b=this.trackname;
+    // var c=this.trackinfo.track; //its taking object value which is not a number so this is increasing the last id value
+  //  console.log('artist'+a);
+  //  console.log('track'+b);
+    trackinfo.comment = comments;
+    trackinfo.favdate=new Date();
 
-    var obj={id:c,artistname:a,trackname:b};
+    // var obj={id:c,artistname:a,trackname:b};
 
     this.myservice.post(trackinfo).subscribe((data)=>{console.log("hogya");})
 
