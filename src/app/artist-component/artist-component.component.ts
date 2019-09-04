@@ -12,7 +12,7 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 export class ArtistComponentComponent implements OnInit {
   public top_tracks:itrack [];
   public searched_track:track_search[];
-  private myurl_track:string = "http://ws.audioscrobbler.com/2.0/?method=chart.gettoptracks&api_key=ef82dba00530c98943fff2648daa06ef&limit=10&format=json";
+ 
  
   public tracksearch="";
   private url_track_search;
@@ -20,7 +20,7 @@ export class ArtistComponentComponent implements OnInit {
 
   ngOnInit() {
 
-    this.myservice.getartistdata(this.myurl_track).subscribe((data)=>{this.top_tracks=data.tracks.track;});
+    this.myservice.getartistdata().subscribe((data)=>{this.top_tracks=data.tracks.track;});
   
    
   }
@@ -42,8 +42,8 @@ export class ArtistComponentComponent implements OnInit {
 
   searchtrack(trackname)
   {
-    this.url_track_search="http://ws.audioscrobbler.com/2.0/?method=track.search&track="+ trackname + "&api_key=ef82dba00530c98943fff2648daa06ef&limit=10&format=json";
-    this.myservice.getartistdata(this.url_track_search).subscribe((data)=>{this.searched_track=data.results.trackmatches.track;});
+    //this.url_track_search="http://ws.audioscrobbler.com/2.0/?method=track.search&track="+ trackname + "&api_key=ef82dba00530c98943fff2648daa06ef&limit=10&format=json";
+    this.myservice.getsearchtrack(trackname).subscribe((data)=>{this.searched_track=data.results.trackmatches.track;});
   }
 
   favourite()

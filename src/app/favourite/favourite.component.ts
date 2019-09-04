@@ -3,6 +3,7 @@ import { MyserviceService } from '../myservice.service';
 import { ifav } from '../track';
 import { itrackinfo, Album } from '../trackinfo';
 import {HttpClient} from '@angular/common/http'
+import {Router} from '@angular/router'
 
 @Component({
   selector: 'app-favourite',
@@ -22,15 +23,17 @@ export class FavouriteComponent implements OnInit {
 
   delete(id)
   {
-    let pathtojson:string= "http://localhost:3000/fav/";
-    console.log("delete id:", pathtojson+id);
-    this.http.delete(pathtojson+id).subscribe();
+    this.myservice.deletefav(id).subscribe();
+    window.location.reload();
    
   }
+
+
+
   modify(commentvalue,id)
   {
-    let pathtojson:string= "http://localhost:3000/fav/"+id;
-    this.http.patch(pathtojson,{"comment":commentvalue}).subscribe();
+    this.myservice.editcomment(commentvalue,id).subscribe();
+    window.location.reload();
   }
 
   

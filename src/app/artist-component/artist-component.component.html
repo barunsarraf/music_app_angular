@@ -1,30 +1,25 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-dark" style="width:100%;position:fixed;z-index: 9999;">
                 <a class="navbar-brand" style="color: wheat">Music</a>
                              <input #input [(ngModel)]="searchinput" class="form-control mr-sm-2" (keyup)="searchtrack(input.value)" type="search" placeholder="Search your music here..." aria-label="Search">
-                                <button (click)="searchtrack(input.value)" style="background: wheat;margin-right: 5px;" class="btn my-2 my-sm-0" type="submit">Search</button>
+                                <!-- <button (click)="searchtrack(input.value)" style="background: wheat;margin-right: 5px;" class="btn my-2 my-sm-0" type="submit">Search</button> -->
                                 <button  (click)="favourite()" style="background: wheat" class="btn my-2 my-sm-0" type="submit">Favourites</button>
-              </nav>
+</nav>
 
 
 
 
-<div style="padding-top:60px;padding-left: 15px;padding-right: 15px;">
+<div class="maincomp">
         Top Rated Tracks:
+        
        
-        <div class="d-flex flex-row bd-highlight mb-3" style="overflow: auto;">
-
-                <div (click)="onselect(x.artist,x.name)" class="card change" style="margin-right: 5px;width: 500px;" *ngFor="let x of top_tracks">
+        <div class="d-flex flex-row bd-highlight mb-3">
+                <div (click)="onselect(x.artist,x.name)" class="card change"  *ngFor="let x of top_tracks">
                         <img class="card-img-top" src='{{x.image[3]["#text"]}}' alt="Card image cap">
                         <div class="card-body">
                         <p class="card-text">{{x.name}}</p>
                         </div>
                 </div>
         </div>
-    
-
-
-
-
 
                 <div class="list-group">
                                 <p style="background: wheat" class="btn my-2 my-sm-0">Your Search Results {{searchinput}} </p>

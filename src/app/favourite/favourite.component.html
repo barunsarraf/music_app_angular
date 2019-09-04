@@ -1,58 +1,56 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-dark" >
         <a class="navbar-brand" href="#" style="color: wheat">Music</a>
-      </nav>
+</nav>
       
-      <p style="background: wheat;width:100%;" class="btn my-2 my-sm-0">Your Favourites</p>
+      <p style="background: wheat;width:100%;" class="btn my-2 my-sm-0">Your Favourites Lists</p>
       <!-- <p *ngFor="let favs of favlist">Track Name:{{favs.name}} - Duration:{{favs.duration}} Url: {{favs.url}}</p> -->
       
-  
+   
       
      
 
       <div>
+
         <div class="card-group" style="display: inline;padding: 100px;">
-          <div class="card search_results" *ngFor="let favs of favlist" style="margin-bottom: 50px;text-align: center" >
+          <div class="card search_results" *ngFor="let favs of favlist" style="margin-bottom: 5px;" >
             <!-- <img class="card-img-top" src='{{fav.album.image[3]["#text"]}}' alt="Card image cap"> -->
       
             <div class="row">
+
               <div class="col-sm-4">
                   <img class="mr-3" src='{{favs.album.image[3]["#text"]}}' alt="Card image cap">
               </div>
 
             <div class="card-body col-sm-4">
-                <p class="card-text">Title : {{favs.album.title}}</p>
+              <h5 class="card-text">Title : {{favs.album.title}}</h5>
               <h5 class="card-title">Track Name: {{favs.name}}</h5>
               <h5 class="card-title">Artist Name: {{favs.album.artist}}</h5>
               <p class="card-text">Listeners: {{favs.listeners}}</p>
+              <small class="text-muted"><a href="{{favs.url}}">Visit Link</a></small><br>
               <small class="text-muted">Your Comments: {{favs.comment}}</small><br>
-              <small class="text-muted"> user added on: {{favs.favdate}}</small><br>
+              <small class="text-muted">Published On: {{favs.wiki.published}}</small><br>
               
-              <div class="form-group">
-                <div class="row">
-                  <div class="col-sm-4">
-                      <label for="exampleFormControlTextarea1">Your Comment:</label>
+            </div>
+
+              <div class="col-sm-4">
+                  <div class="form-group">               
+                      <label for="exampleFormControlTextarea1">Edit Comment:</label>
                       <textarea #commentvalue class="form-control" id="exampleFormControlTextarea1" placeholder={{favs.comment}} rows="3"></textarea>
+                </div>
+                <div>
+                    <small class="text-muted">Last Updated On: {{favs.favdate}}</small><br>
+                     
+                    <button  (click)="delete(favs.id)" style="background: wheat" class="btn my-2 my-sm-0" type="submit">Delete</button> &nbsp;
+                    <button  (click)="modify(commentvalue.value,favs.id)" style="background: wheat" class="btn my-2 my-sm-0" type="submit">Modify Comment</button>
                   </div>
-                
-                </div>
-                 
-                </div>
-
-
-              <small class="text-muted"><a href="{{favs.url}}">Visit Link</a></small>
-                
-            <div>
-                <small class="text-muted">Published On: {{favs.wiki.published}}</small><br>
               </div>
-              <button  (click)="delete(favs.id)" style="background: wheat" class="btn my-2 my-sm-0" type="submit">Delete</button> &nbsp;
-              <button  (click)="modify(commentvalue.value,favs.id)" style="background: wheat" class="btn my-2 my-sm-0" type="submit">Modify Comment</button>
+
+               
+
+            
             </div>
           
           </div>
-
-
-
-          
       </div>
 
       

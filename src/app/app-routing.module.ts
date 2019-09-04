@@ -5,8 +5,8 @@ import { ArtistComponentComponent } from './artist-component/artist-component.co
 import { FavouriteComponent } from './favourite/favourite.component';
  
 const routes: Routes = [
+  {path:'',redirectTo:'/ArtistComponent',pathMatch:'full'},
   {path:'artist-details/:artistname/:trackname',component:ArtistDetailsComponent},
-  {path: 'home', component: ArtistComponentComponent },
   {path: 'favourite', component:FavouriteComponent},
   {path: '', component:ArtistComponentComponent},
   {path: "**", component: ArtistComponentComponent}
@@ -18,4 +18,4 @@ const routes: Routes = [
 })
 export class AppRoutingModule { }
 
-export const routingComponents = [ArtistDetailsComponent];
+export const routingComponents = [ArtistDetailsComponent,ArtistComponentComponent,FavouriteComponent];

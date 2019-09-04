@@ -70,21 +70,21 @@ import {HttpClient} from '@angular/common/http';
 })
 export class ArtistDetailsComponent implements OnInit {
   public artistname;
-  public trackname;
+  // public trackname;
   public trackinfo:itrackinfo;
   public artistinfo:Album[];
   private newurl;
-  private myurl:string = "http://ws.audioscrobbler.com/2.0/?method=track.getInfo&api_key=ef82dba00530c98943fff2648daa06ef&";
+  
 
   constructor(private route:ActivatedRoute,private myservice:MyserviceService,private http:HttpClient) { }
 
   ngOnInit() {
     let name=this.route.snapshot.paramMap.get('artistname');
-    this.trackname=this.route.snapshot.paramMap.get('trackname');
+    let trackname=this.route.snapshot.paramMap.get('trackname');
     this.artistname=name;
-    this.newurl=this.myurl+"artist="+name+"&track="+this.trackname+"&format=json";
-    this.myservice.getartistdata(this.newurl).subscribe((data)=>{this.trackinfo=data.track;});
-    this.myservice.getartistdata(this.newurl).subscribe((data)=>{this.artistinfo=data.track.album.image;});
+    
+    this.myservice.getartistdetailsobj(name,trackname).subscribe((data)=>{this.trackinfo=data.track;});
+    this.myservice.getartistdetailsalbum(name,trackname).subscribe((data)=>{this.artistinfo=data.track.album.image;});
     
   }
 
@@ -96,13 +96,20 @@ export class ArtistDetailsComponent implements OnInit {
     // var c=this.trackinfo.track; //its taking object value which is not a number so this is increasing the last id value
   //  console.log('artist'+a);
   //  console.log('track'+b);
+
     trackinfo.comment = comments;
     trackinfo.favdate=new Date();
+    trackinfo.id=trackinfo.artist.mbid+trackinfo.name;
 
     // var obj={id:c,artistname:a,trackname:b};
 
     this.myservice.post(trackinfo).subscribe((data)=>{console.log("hogya");})
+    alert("added");
+    
 
   }
+
+  
+
 
 }
